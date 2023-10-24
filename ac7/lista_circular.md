@@ -12,7 +12,7 @@ Segundo o site tutorialspoint.com, os passos para inserção no início da lista
 3. Se a lista estiver vazia, adicione o nó e faça o ponteiro da cabeça apontar para esse nó
 4. Se a lista não estiver vazia, ligue o nó existente na cabeça como o próximo nó para o novo nó.
 5. Faça o novo nó ser a nova cabeça.
-6. INÍCIO
+6. FIM
 ```
 
 Em pseudocódigo, um exemplo a seguir pode ser:
@@ -25,7 +25,7 @@ PROGRAMA INSERE(lista, dado)
   SENÃO
     novo_no.prox := lista.cab
     lista.cab := novo_no
-  FIM
+FIM
   ```
 
 
@@ -54,6 +54,5 @@ PROGRAMA REMOVE(lista)
     lista.cab := lista.cab.prox
     SE lista.cab == lista.cab.prox ENTÃO
       lista.cab := NULL
-    FIM
- FIM
+FIM
 ```
